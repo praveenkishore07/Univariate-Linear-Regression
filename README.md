@@ -37,9 +37,6 @@ m = num/den
 b = ymean - m*xmean
 
 print(m,b)
-
-# NOTE: The image shows 'y_pred' in 'print(Y_pred)' but the line before is 'y_pred = m*x+b'
-# This likely means 'y_pred' should be used in the print statement
 y_pred = m*x+b
 print(y_pred)
 
